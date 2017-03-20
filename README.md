@@ -1,5 +1,5 @@
 # simple-html-css-projects
-A collection of simple projects built only using HTML/5 and CSS
+A collection of simple projects built using HTML/5 and CSS
 
 Barbara Oakley Tribute Page
 ===========================

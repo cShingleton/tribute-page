@@ -1,0 +1,144 @@
+* {
+ box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+}
+
+h2 {
+ font-size: 110%;
+ font-weight: bold;
+ letter-spacing: 1.5px;
+}
+
+html {
+ height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+ height: auto;
+ min-height: 100%;
+ position: relative;
+ max-width: 1200px;
+ font-family: PT Serif;
+ color: darkslategrey;
+}
+
+#content {
+ padding: 3%;
+ width: 64%;
+ display: inline-block;
+line-height: 1.5em;
+}
+
+nav {
+ margin: 10% 0;
+}
+
+nav > li {
+ line-height: 2.5em;
+}
+
+aside {
+ float: left;
+ padding: 3%;
+ width: 24%;
+ margin-top: 27%;
+ line-height: 1.6em;
+ list-style: none;
+ display: inline-block;
+ text-align: right;
+}
+
+#back-sidebar {
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ z-index: -1;
+ width: 24%;
+ background: linear-gradient(#eee, transparent 60%), 
+             linear-gradient(0deg, #fff, transparent),
+             #eee url("http://yfile.news.yorku.ca/files/2016/10/Barbara_oakley.jpg") no-repeat;
+ background-size: contain;
+}
+
+small {
+ font-size: smaller;
+}
+
+blockquote {
+ font-style: italic;
+font-size: 0.75em;
+}
+
+.btn-container {
+  display: flex;
+  margin: 0 auto;
+  flex-flow: column nowrap;
+}
+.button {
+  width: 80%;
+  float: right;
+  padding: 5px;
+  margin: 5px;
+  font-size: 75%;
+  color: slategrey;
+  background: rgba(0,0,0,0);
+  border: solid 2px #ffdae0;
+}
+
+.button:hover {
+  color: slategrey;
+  background: #ffdae0;
+  border: solid 2px slategrey;
+}
+
+.bio-container {
+ display: flex;
+ position: relative;
+ align-items: center;
+ padding: 30px;
+}
+
+.bio-text {
+ width: 60%;
+ height: auto;
+}
+
+#bar-trawler {
+ width: 40%;
+ height: 40%;
+ margin-left: 40px;
+ background-color: white;
+ border: solid 3px #ffdae3;
+ border-radius: 5px;
+}
+
+strong {
+ font-weight: bold;
+ color: slategrey;
+}
+
+#publications {
+ background: #eee;
+ padding: 50px;
+ display: inline-block;
+ width: 100%;
+}
+
+#publications strong:hover {
+  color: #FF83A8;
+}
+
+#inspiration {
+ background: #eee;
+ padding: 50px;
+ display: inline-block;
+ width: 100%;
+}
